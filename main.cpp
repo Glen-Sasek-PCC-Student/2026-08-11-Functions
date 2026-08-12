@@ -45,6 +45,6 @@ void displayByValue(string copy) {
 
 void displayByReference(string &reference) {
     cout << reference << endl;
-    reference = reference + " appending to reference &copy";
+    reference = reference + " appending to &reference";
     cout << reference << endl;
 }
